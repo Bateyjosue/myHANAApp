@@ -20,7 +20,8 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false"
+    "watch-interaction_items": "cds watch --open interaction_items/webapp/index.html?sap-ui-xx-viewCache=false",
+    "startapp": "cds bind --exec -- npm start --prefix app"
   },
   "cds": {
     "requires": {
